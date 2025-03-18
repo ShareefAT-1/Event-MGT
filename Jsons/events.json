@@ -1,0 +1,85 @@
+[
+    {
+      "eventId": 1,
+      "eventName": "Cyber Security Workshop",
+      "date": "2025-03-20",
+      "time": "10:00 AM",
+      "place": "Auditorium",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 2,
+      "eventName": "Web Development Bootcamp",
+      "date": "2025-03-22",
+      "time": "2:00 PM",
+      "place": "Lab 1",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 3,
+      "eventName": "Machine Learning Hackathon",
+      "date": "2025-03-25",
+      "time": "9:00 AM",
+      "place": "Hall B",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 4,
+      "eventName": "Data Science Seminar",
+      "date": "2025-03-28",
+      "time": "11:00 AM",
+      "place": "Conference Room",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 5,
+      "eventName": "AI Conference",
+      "date": "2025-04-01",
+      "time": "3:00 PM",
+      "place": "Main Auditorium",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 6,
+      "eventName": "Blockchain Expo",
+      "date": "2025-04-05",
+      "time": "4:00 PM",
+      "place": "Expo Center",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 7,
+      "eventName": "Mobile App Development Workshop",
+      "date": "2025-04-08",
+      "time": "1:00 PM",
+      "place": "Lab 2",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 8,
+      "eventName": "Ethical Hacking Competition",
+      "date": "2025-04-12",
+      "time": "5:00 PM",
+      "place": "Computer Lab",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 9,
+      "eventName": "Frontend Design Masterclass",
+      "date": "2025-04-15",
+      "time": "12:00 PM",
+      "place": "Design Studio",
+      "registeredUsers": []
+    },
+    {
+      "eventId": 10,
+      "eventName": "Cloud Computing Summit",
+      "date": "2025-04-18",
+      "time": "10:30 AM",
+      "place": "Tech Park",
+      "registeredUsers": []
+    }
+  ]
+
+  
+  
