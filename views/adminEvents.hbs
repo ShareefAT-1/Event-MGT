@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <button
+      onclick="handleaddEvent()"
+        style="margin-left: 650px;padding: 20px;background: #a6cff1;"
+      >Add-Event</button>
+      {{#each allEvents}}
+        <div
+          style="background-color: bisque; margin: 5px; padding: 10px; border: 0px; border-radius: 10px; padding-left: 10px;"
+        >
+          <div style="display: ;">
+            <p>Event Name: {{this.eventName}}</p>
+            <p>Date: {{this.date}}</p>
+            <p>Time: {{this.time}}</p>
+            <p>Place: {{this.place}}</p>
+
+                 <button  onclick="handleDelete(`{{this.eventId}}`)">Delete</button>
+           
+          </div>
+
+        </div>
+      {{/each}}
+
+    </div>
+
+    <script>
+      const handleaddEvent=()=> window.location.replace(`/admin/Addevent`) 
+
+        const handleDelete=(eventId)=> {
+            fetch(`http://localhost:4000/admin/Deleteevent/${eventId}`,{method:"DELETE"}).then((res)=>{
+                window.location.replace('/admin/events')
+                
+
+            })
+                }
+
+    </script>
+
+  </body>
+</html>
